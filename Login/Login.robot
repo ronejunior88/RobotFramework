@@ -20,6 +20,7 @@ Logar no site
     Preencher Campo    id=tempPassowrd    secret_sauce
     Submit Login
     Valida Login Correto        ${valida_login}
+    Fechar Navegador
     
 Teste de Login Incorreto
     Abrir Navegador   ${set_site}    ${set_browser} 
